@@ -54,13 +54,13 @@ Country – Customer location
 
 The following preprocessing steps were applied:
 
-Converted InvoiceDate to datetime format
+Converted Order_Datetime to datetime format
 
-Removed cancelled invoices (Invoice starting with "C")
+Removed cancelled Orders (Ordera starting with "C")
 
 Removed negative quantities (returned items)
 
-Created Revenue = Quantity × UnitPrice
+Created Revenue = Quantity × Price
 
 Handled missing Description and Customer_ID values
 
@@ -92,17 +92,17 @@ Monetary → Total revenue generated
 
 Customers were scored using quintiles (1–5 scale).
 
-Customer Segments
+👥Customer Segments
 
- Lost Customers
+ 🏆Champions
 
- Loyal Customers
+ 💎Loyal Customers
 
- Potential Loyalists
+ 🌟Potential Loyalists
 
- At Risk
+ ⚠️At Risk
 
- Lost Customers
+ 📉Lost Customers
 
 Segmentation helps identify high-value customers and churn risks.
 
@@ -110,17 +110,17 @@ Segmentation helps identify high-value customers and churn risks.
 
 The interactive Tableau dashboard includes:
 
-KPI Cards (Total Revenue, Orders, Customers)
+💳KPI Cards (Total Revenue, Orders, Customers)
 
-Monthly Revenue Trend (Line Chart)
+📈Monthly Revenue Trend (Line Chart)
 
-Top Products (Ranked List)
+🥇Top Products (Ranked List)
 
-Revenue by Country
+🌍Revenue by Country
 
-Customer Status (Active vs Inactive)
+✅Customer Status (Active vs Inactive)
 
-RFM Customer Segmentation
+👥RFM Customer Segmentation
 
 The dashboard is designed using a clean green theme to reflect business growth and financial health.
 
@@ -154,15 +154,6 @@ Open the Tableau workbook
 
 Connect to cleaned dataset and RFM file
 
-📌 Future Improvements
-
-Add predictive churn modeling
-
-Implement cohort analysis
-
-Build marketing campaign targeting recommendations
-
-Deploy dashboard to Tableau Public
 
 👤 Author
 
