@@ -42,7 +42,7 @@ Product_Name – Product Name
 
 Quantity – Number of units purchased
 
-Ordetr_Datetime – Date and time of purchase
+Order_Datetime – Date and time of purchase
 
 Price – Price per unit
 
