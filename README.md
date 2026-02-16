@@ -1,6 +1,6 @@
 ##Online Retail Sales Analysis & Customer Segmentation
 
-#📌 Project Overview
+📌 Project Overview
 
 This project analyzes transactional data from an online retail store to uncover:
 
@@ -34,19 +34,19 @@ Provide actionable marketing insights
 
 The dataset contains transactional retail data including:
 
-Invoice – Order ID
+Ordert_ID – Order ID
 
-StockCode – Product Code
+Product_Code – Product Code
 
-Description – Product Name
+Product_Name – Product Name
 
 Quantity – Number of units purchased
 
-InvoiceDate – Date and time of purchase
+Ordetr_Datetime – Date and time of purchase
 
-UnitPrice – Price per unit
+Price – Price per unit
 
-CustomerID – Unique customer identifier
+Customer_ID – Unique customer identifier
 
 Country – Customer location
 
@@ -62,7 +62,7 @@ Removed negative quantities (returned items)
 
 Created Revenue = Quantity × UnitPrice
 
-Handled missing Description and CustomerID values
+Handled missing Description and Customer_ID values
 
 Removed invalid transactions
 
