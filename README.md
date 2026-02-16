@@ -1,5 +1,5 @@
-Online Retail Sales Analysis & Customer Segmentation
-📌 Project Overview
+##Online Retail Sales Analysis & Customer Segmentation
+#📌 Project Overview
 
 This project analyzes transactional data from an online retail store to uncover:
 
